@@ -6,6 +6,7 @@ body {
   height: 100%;
   display: flex;
   flex-direction: column;
+  justify-items: center;
   text-align: center;
   margin: 0;
 }
@@ -26,14 +27,19 @@ body {
 
 .c-left {
   background-color: #0300fd;
-  align-items: center;
-  justify-content: center;
   width: 50%;
 }
 
 .c-right {
   background-color: #fe0001;
   width: 25%;
+}
+
+.flex-text {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .footer {
