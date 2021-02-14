@@ -1,0 +1,45 @@
+html {
+  height: 100%;
+}
+
+body {
+  height: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  line-height: 1.5;
+  text-transform: uppercase;
+  background-color: #79b9c6;
+  color: #feffff;
+}
+
+h1 {
+  font-size: 100px;
+}
+
+h4 {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+h5 {
+  color: #242c2c;
+}
+
+.splash {
+  display: flex;
+  height: 100%;
+  font-weight: 600;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.button {
+  text-decoration: none;
+  color: #feffff;
+  padding: 7px 10px;
+  border-style: solid;
+  border-color: #feffff;
+  border-radius: 3px;
+  border-width: 2px;
+}
