@@ -1,0 +1,46 @@
+html {
+  height: 100%;
+}
+
+body {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin: 0;
+}
+
+.navbar {
+  background-color: #818081;
+  width: 100%;
+  align-content: flex-start;
+}
+
+.contents {
+  margin: 20px 0;
+  height: 63%;
+  display: inline-flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.c-left {
+  background-color: #0300fd;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+}
+
+.c-right {
+  background-color: #fe0001;
+  width: 25%;
+}
+
+.footer {
+  background-color: #028002;
+  display: block;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+}
