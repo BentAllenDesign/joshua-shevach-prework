@@ -12,31 +12,50 @@
 
 </head>
 
-<body style="background-color: #79b9c6;">
+<body class="h-100" style="background-image: url('page-background.jpg');">
 
-  <div class="container-fluid" style="height: 100vh; background-color: #79b9c6;">
+  <!-- Header container with fluid-width bottom border-->
+  <div class="container-fluid border-bottom" style="border:#cccccc;">
 
-    <nav class="navbar navbar-expand-lg navbar-light">
+    <!-- Outer navbar unformatted container to center navigation hub with space around -->
+    <div class="container">
 
+      <!-- Inner navbar formatted container with sandwich expander for mobile & no padding-->
+      <nav class="navbar navbar-expand-lg navbar-light bg-transparent p-0">
       
+        <!-- Brand header slot with extra padding to expand navbar height while keeping color at full container height-->
+        <a class="navbar-header navbar-brand text-light font-weight-bold py-3 px-4" href="#" style="background-color: #4aaaa5;"><h2>Josh Shevach</h2></a>
 
-    </nav>
-
-
-    <div class="row h-75 w-100 justify-content-center align-items-center">
-      <div class="jumbotron text-uppercase text-center" style="background-color: #79b9c6;">
-        <h5 class="mb-1 font-weight-bold">
-          bringing fancy ideas to life
-        </h5>
-        <h3 class="display-2 font-weight-bold text-light mb-5" style="font-family: 'Bungee Shade', cursive !important;">
-          digital heaven
-        </h3>
-        <button onclick="location.href='http://www.blankwebsite.com/'" type="button"
-          class="btn btn-outline-light text-uppercase font-weight-bold">
-          get a free quote
+        <!-- Expand toggler for mobile-->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
         </button>
-      </div>
+      
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+
+          <!-- Actual navigation list-->
+          <ul class="navbar-nav ml-auto">
+      
+            <li class="nav-item active">
+              <a class="nav-link" href="#">About <span class="sr-only">(current)</span></a>
+            </li>
+      
+            <li class="nav-item">
+              <a class="nav-link" href="#">Portfolio</a>
+            </li>
+      
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact</a>
+            </li>
+          </ul>
+
+        </div>
+      </nav>
     </div>
+
+
+    
 
   </div>
 
