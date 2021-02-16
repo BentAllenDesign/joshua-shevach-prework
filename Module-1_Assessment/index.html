@@ -7,21 +7,22 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Document</title>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+  <link rel="stylesheet" href="assets/css/style.css">
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Bungee+Shade&display=swap" rel="stylesheet">
 
 </head>
 
-<body class="h-100" style="background-image: url('page-background.jpg');">
+<body class="h-100" style="background: url('assets/images/page-background.png') repeat;">
 
   <!-- Header container with fluid-width bottom border-->
-  <div class="container-fluid border-bottom" style="border:#cccccc;">
+  <div class="container-fluid bg-white" style="border-style: none none solid none; border-color:#cccccc; border-width: 2px;">
 
     <!-- Outer navbar unformatted container to center navigation hub with space around -->
     <div class="container">
 
       <!-- Inner navbar formatted container with sandwich expander for mobile & no padding-->
-      <nav class="navbar navbar-expand-lg navbar-light bg-transparent p-0">
+      <nav class="navbar navbar-expand-lg navbar-light bg-white p-0">
       
         <!-- Brand header slot with extra padding to expand navbar height while keeping color at full container height-->
         <a class="navbar-header navbar-brand text-light font-weight-bold py-3 px-4" href="#" style="background-color: #4aaaa5;"><h2>Josh Shevach</h2></a>
@@ -38,26 +39,55 @@
           <ul class="navbar-nav ml-auto">
       
             <li class="nav-item active">
-              <a class="nav-link" href="#">About <span class="sr-only">(current)</span></a>
+              <a class="nav-link" href="index.html">About <span class="sr-only">(current)</span></a>
             </li>
       
             <li class="nav-item">
-              <a class="nav-link" href="#">Portfolio</a>
+              <a class="nav-link" href="portfolio.html">Portfolio</a>
             </li>
       
             <li class="nav-item">
-              <a class="nav-link" href="#">Contact</a>
+              <a class="nav-link" href="contact.html">Contact</a>
             </li>
           </ul>
 
         </div>
       </nav>
     </div>
-
-
-    
-
   </div>
+
+  <div class="container mt-5">
+    <div class="card">
+      <div class="card-body">
+        <h4 class="card-title py-1" style="color: #4aaaa5;">About Me</h4>
+        <hr class="mb-4" style="border-width: 3px;">
+        <p>
+          <img class="float-left mr-3" src="assets/images/profile-picture.jfif" height="200px" width="200px" alt="">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. In sed turpis sollicitudin, luctus elit et, aliquam est. Sed et
+          vestibulum lorem. Fusce pulvinar libero arcu, ut sagittis sapien fermentum at. Cras sagittis ex non nisl posuere
+          aliquet. Maecenas id pharetra mauris. Morbi ac ultricies ipsum, ac bibendum nunc. 
+          <br>
+          <br>
+          Curabitur pellentesque efficitur erat in lacinia. Suspendisse id libero urna. Cras feugiat nunc fringilla mauris rutrum molestie. Nullam at imperdiet libero.
+          Fusce nibh eros, hendrerit sed leo eget, interdum aliquet nibh. Proin vel nisl convallis, interdum massa nec, bibendum lacus. Sed et
+          vestibulum lorem. Fusce pulvinar libero arcu, ut sagittis sapien fermentum at.
+          <br>
+          <br>
+          Vestibulum ornare accumsan dolor nec tempus. Sed ut dictum nisl. Praesent consequat, quam nec tempus dignissim, diam
+          elit gravida tortor, blandit sagittis magna orci in metus. Donec tempus nulla sed maximus sollicitudin. Mauris vel est
+          in leo egestas ornare. Aliquam in mauris convallis, volutpat erat a, tincidunt erat. Aenean tempus aliquet sem, in
+          sodales dolor condimentum sit amet. Curabitur rhoncus condimentum efficitur.
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Simple footer element -->
+  <footer class="footer text-light">
+    <div class="container">
+      <span>Copyright &#169;</span>
+    </div>
+  </footer>
 
   <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
